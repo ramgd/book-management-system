@@ -15,10 +15,10 @@ class BookController extends Controller
     //     $this->middleware('jwt.auth');
     // }
 
-    public function __construct()
-    {
-        $this->middleware('jwt.auth');
-    }
+    // public function __construct()
+    // {
+    //     $this->middleware('jwt.auth');
+    // }
 
 
     public function index(Request $request)
